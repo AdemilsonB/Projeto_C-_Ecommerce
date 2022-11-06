@@ -5,4 +5,7 @@ Este projeto foi desenvolvido durante o segundo semestre de 2021 e tem como obje
 # Tecnologias Utilizadas:
 - C#
 - .NET
-- SQL Server
+- Microsoft SQL Server
+- Angular
+
+
