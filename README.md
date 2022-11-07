@@ -18,6 +18,14 @@ dotnet restore<br>
 <h3>Rodar a aplicação</h3>
 dotnet run
 
+# Criação do Front-End do Projeto
+<h3>Criação de uma aplicação Angular</h3>
+ng new FRONT --minimal
+<h3>Restaurar a dependências do projeto, caso ele tenha sido clonado de algum repositório</h3>
+npm i
+<h3>Rodar uma aplicação Angular</h3>
+ng serve -o
+
 # Instalação de ferramentas do Entity Framework Core – CLI do .NET Core
 <h3>dotnet ef pode ser instalado como uma ferramenta global ou local.</h3>
 dotnet tool install --global dotnet-ef<br>
