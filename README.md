@@ -1,9 +1,10 @@
 # Projeto Ecommerce
 
-Este projeto foi desenvolvido durante o segundo semestre de 2021, Concluído em Dezembro. 
+<h3>Este projeto foi desenvolvido durante o segundo semestre de 2021, Concluído em Dezembro.</h3>
 
+<h1>Objetivo do Projeto:</h1>
 Este projeto tem como objetivo representar um Ecommerce onde é possível efetuar compras, existem todas as funcionalidades básicas, como, inserção, edição, exclusão e listagem de dados.
-A compra é feita a partir do momento em que o cliente se cadastra como usuário e adiciona itens disponíveis em seu carrinho de compras finaliza a compra.
+A compra é feita a partir do momento em que o cliente se cadastra como usuário e adiciona itens disponíveis em seu carrinho de compras e finaliza a compra.
 
 <h1>Tecnologias Utilizadas:</h1>
 - C#
