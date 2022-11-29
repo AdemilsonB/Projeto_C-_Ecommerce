@@ -7,10 +7,10 @@ Este projeto tem como objetivo representar um Ecommerce onde é possível efetua
 A compra é feita a partir do momento em que o cliente se cadastra como usuário e adiciona itens disponíveis em seu carrinho de compras e finaliza a compra.
 
 <h1>Tecnologias Utilizadas:</h1>
-- C#
-- ASP.NET Core
-- TypeScript
-- Angular
+- C#<br>
+- ASP.NET Core<br>
+- TypeScript<br>
+- Angular<br>
 - Microsoft SQL Server
 
 <h1>Back-End:</h1> 
