@@ -1,41 +1,22 @@
 # Projeto Ecommerce
 
-Este projeto foi desenvolvido durante o segundo semestre de 2021 e tem como objetivo representar um Ecommerce. 
+Este projeto foi desenvolvido durante o segundo semestre de 2021, Concluído em Dezembro. 
 
-# Tecnologias Utilizadas:
+Este projeto tem como objetivo representar um Ecommerce onde é possível efetuar compras, existem todas as funcionalidades básicas, como, inserção, edição, exclusão e listagem de dados.
+A compra é feita a partir do momento em que o cliente se cadastra como usuário e adiciona itens disponíveis em seu carrinho de compras finaliza a compra.
+
+<h1>Tecnologias Utilizadas:</h1>
 - C#
 - ASP.NET Core
-- Microsoft SQL Server
+- TypeScript
 - Angular
+- Microsoft SQL Server
 
-# Criação do Back-End do Projeto 
-<h3>Criação de uma aplicação Web API.</h3>
-dotnet new webapi --name NomeDoProjeto<br>
-<h3>Adiciona uma referência de pacote a um projeto.</h3>
-dotnet add package NomeDoPacote<br>
-<h3>Restaura as dependências e as ferramentas de um projeto, caso ele tenha sido clonado de algum repositório.</h3>
-dotnet restore<br>
-<h3>Rodar a aplicação</h3>
-dotnet run
+<h1>Back-End:</h1> 
+O Back-End do projeto foi desenvolvido com C#, .Net Core e com integração do Banco de Dados SqlServer da Microsoft Azure. O sistema contém cinco modelos, Categoria, ItemVenda, Produto, Usuario e Venda.
+Para que o Sistema funcione da meneira correta é necessário adicionar Categorias primeiramente a partir disso será possível adicionar Produtos nelas, essees dados serão armazenados no Banco de Dados da aplicação. No Back-End cada Modelo tem todas as funcionalidades do projeto, que é a inserção, edição, exclusão e listagem de dados, desta maneira evitando conflito de rotas.
 
-# Criação do Front-End do Projeto
-<h3>Criação de uma aplicação Angular</h3>
-ng new FRONT --minimal
-<h3>Restaurar a dependências do projeto, caso ele tenha sido clonado de algum repositório</h3>
-npm i
-<h3>Rodar uma aplicação Angular</h3>
-ng serve -o
-
-# Instalação de ferramentas do Entity Framework Core – CLI do .NET Core
-<h3>dotnet ef pode ser instalado como uma ferramenta global ou local.</h3>
-dotnet tool install --global dotnet-ef<br>
-<h3>Para usá-lo como uma ferramenta local, restaure as dependências de um projeto que o declara como uma dependência de ferramentas usando um arquivo de manifesto de ferramenta.</h3>
-dotnet tool update --global dotnet-ef<br>
-<h3>Antes de usar as ferramentas em um projeto específico, você precisará adicionar o Microsoft.EntityFrameworkCore.Design pacote a ele.</h3>
-dotnet add package Microsoft.EntityFrameworkCore.Design<br>
-<h3>Packages adicionais para o funcionamento do banco de dados.</h3>
-dotnet add package Microsoft.EntityFrameworkCore.Sqlite<br>
-dotnet add package Microsoft.EntityFrameworkCore.InMemory<br>
-
+<h1>Front-End:</h1>
+O Front-End do Projeto foi desenvolvido totalmente em um Projeto Angular com as Classes em TypeScript. É possível executar todas as funcionalidades no Front-End, pois os componentes foram criados individualmente para melhor exploração da estrutura do projeto, desta maneira o código fica mais fácil de ser entendido e trabalhado.
 
 
